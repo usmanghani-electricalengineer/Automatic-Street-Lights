@@ -4,12 +4,12 @@ This system is designed to **save energy** and eliminate the need for manual ope
 
 ## Working Principle of the Circuit
 The automatic street light circuit works based on **the change in LDR resistance** with light intensity.
-### During Daytime (Light Present)
+### During Day time (Light Present)
 - When bright light falls on the LDR, its **resistance becomes low**.  
 - Very little voltage reaches the **base (B)** of the **transistor (A2222)**.  
 - The transistor remains **OFF**, preventing current from flowing to the LEDs.  
 - Therefore, **LEDs stay OFF**.
-### During Nighttime (Darkness)
+### During Night time (Darkness)
 - When it becomes dark, the **LDR resistance increases**.  
 - Voltage across the LDR rises, sending a higher base current to the transistor.  
 - The transistor turns **ON** (acts as a closed switch).  
